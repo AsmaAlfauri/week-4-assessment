@@ -41,11 +41,26 @@
 
     /* Your code starts here */
     /* CODE AREA */
-    .container {}
+  .container {
+      display: flex;
+      flex-direction: row;
+      height: 800px;
+      width: 100%;
 
-    .content {}
+    }
 
-    .leftbar {}
+    .content {
+      order: 0
+    }
+
+    .leftbar {
+      order: -1
+    }
+    .rightbar{
+      order: 0;
+      align-self:stretch; 
+    }
+
 
     /* END CODE AREA */
   </style>
