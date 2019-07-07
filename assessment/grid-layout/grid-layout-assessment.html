@@ -45,9 +45,19 @@
     /* Your code starts here */
     /* CODE AREA */
 
-    .container {}
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: 1fr 1fr;
+      grid-gap: 10px;
+    }
 
-    .a {}
+    .a {
+      order: 1
+    }
+    .f{
+      order: 2
+    }
 
     /* END CODE AREA */
   </style>
